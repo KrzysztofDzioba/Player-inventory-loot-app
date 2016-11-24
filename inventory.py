@@ -174,7 +174,6 @@ def print_table(inventory, order=None):
         print("Total numbers of items: ", x)
 
     else:
-        print("dziala else")
         print(("count").rjust(g + 3), "Item name:".rjust(g + q))
         dash_list = ["-"] * (g + q + g + 4)
         print (''.join(dash_list).rjust(g + 3 + q))
